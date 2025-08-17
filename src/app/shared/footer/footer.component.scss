@@ -1,0 +1,22 @@
+.footer-icons a {
+  color: #ffffff;
+  font-size: 1.2rem;
+  transition: color 0.3s ease;
+}
+
+.footer-icons a.linkedin:hover {
+  color: #0A66C2;
+}
+
+.footer-icons a.github:hover {
+  color: #6e5494;
+}
+
+.footer-icons a.email:hover {
+  color: #ff4d4d;
+}
+
+.bg-dark.text-white {
+  text-transform: uppercase;
+  font-size: 0.9rem;
+}

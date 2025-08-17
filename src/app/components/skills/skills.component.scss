@@ -1,0 +1,9 @@
+#skills i {
+  transition: transform 0.3s ease-in-out;
+}
+
+#skills i:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+}
+

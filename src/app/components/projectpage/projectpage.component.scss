@@ -1,0 +1,10 @@
+#projects .project-card img {
+  height: 220px;            
+  object-fit: cover;         
+  border-radius: 0.5rem 0.5rem 0 0; 
+  transition: transform 0.3s ease;
+}
+
+#projects .project-card img:hover {
+  transform: scale(1.02);     
+}
