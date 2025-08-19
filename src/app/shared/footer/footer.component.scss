@@ -1,6 +1,11 @@
+footer {
+  font-size: 0.9rem;
+}
+
 .footer-icons a {
   color: #ffffff;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
+  margin: 0 8px;
   transition: color 0.3s ease;
 }
 
@@ -9,13 +14,9 @@
 }
 
 .footer-icons a.github:hover {
-  color: #6e5494; 
+  color: #6e5494;
 }
 
 .footer-icons a.email:hover {
-  color: #ff4d4d; 
-}
-
-.bg-dark.text-white {
-  font-size: 0.9rem; 
+  color: #ff4d4d;
 }
