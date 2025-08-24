@@ -1,5 +1,5 @@
 #projects .project-card img {
-  height: 220px;            
+  height: 13.75rem;            
   object-fit: cover;         
   border-radius: 0.5rem 0.5rem 0 0; 
   transition: transform 0.3s ease;
@@ -7,4 +7,8 @@
 
 #projects .project-card img:hover {
   transform: scale(1.02);     
+}
+
+.btn:hover {
+  border: 2px solid #030b17 !important;
 }
