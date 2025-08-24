@@ -5,9 +5,9 @@
 #contactForm input,
 #contactForm textarea {
   font-size: 1rem;
-  padding: 10px 15px;
-  border-radius: 6px;
-  border: 1px solid #ced4da;
+  padding: 0.625rem 0.938rem;
+  border-radius: 0.375;
+  border: 0.125rem solid #ced4da;
 }
 
 #contactForm input:focus,
@@ -22,5 +22,5 @@
 }
 
 .btn:hover {
-  border: 2px solid #030b17 !important;
+  border: 0.125rem solid #030b17;
 }
