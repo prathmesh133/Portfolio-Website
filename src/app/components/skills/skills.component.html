@@ -1,30 +1,90 @@
 <div class="container py-5 bg-light" id="skills">
     <h2 class="text-center fw-bold">Skills</h2>
-    <div class="row text-center mt-4">
-        <div class="col-6 col-md-3 mb-4">
-            <i class="fab fa-html5 fa-2x text-danger"></i>
-            <p class="mt-2">HTML</p>
+
+    <ul class="nav nav-tabs justify-content-center mt-4" id="skillsTab" role="tablist">
+        <li class="nav-item" role="presentation">
+            <button class="nav-link active fw-bold" id="tech-tab" data-bs-toggle="tab" data-bs-target="#tech"
+                type="button" role="tab" aria-controls="tech" aria-selected="true">
+                Technical Skills
+            </button>
+        </li>
+
+        <li class="nav-item" role="presentation">
+            <button class="nav-link fw-bold" id="soft-tab" data-bs-toggle="tab" data-bs-target="#soft" type="button"
+                role="tab" aria-controls="soft" aria-selected="false">
+                Soft Skills
+            </button>
+        </li>
+    </ul>
+
+
+    <div class="tab-content mt-4" id="skillsTabContent">
+        <div class="tab-pane fade show active" id="tech" role="tabpanel" aria-labelledby="tech-tab">
+            <div class="row text-center">
+                <div class="col-6 col-md-3 mb-4">
+                    <i class="fab fa-html5 fa-2x text-danger"></i>
+                    <p class="mt-2">HTML</p>
+                </div>
+                
+                <div class="col-6 col-md-3 mb-4">
+                    <i class="fab fa-css3-alt fa-2x text-primary"></i>
+                    <p class="mt-2">CSS</p>
+                </div>
+
+                <div class="col-6 col-md-3 mb-4">
+                    <i class="fab fa-js fa-2x text-warning"></i>
+                    <p class="mt-2">JavaScript</p>
+                </div>
+
+                <div class="col-6 col-md-3 mb-4">
+                    <i class="fas fa-code fa-2x text-info"></i>
+                    <p class="mt-2">TypeScript</p>
+                </div>
+
+                <div class="col-6 col-md-3 mb-4">
+                    <i class="fab fa-bootstrap fa-2x text-purple"></i>
+                    <p class="mt-2">Bootstrap</p>
+                </div>
+
+                <div class="col-6 col-md-3 mb-4">
+                    <i class="fab fa-angular fa-2x text-danger"></i>
+                    <p class="mt-2">AngularJS</p>
+                </div>
+            </div>
         </div>
-        <div class="col-6 col-md-3 mb-4">
-            <i class="fab fa-css3-alt fa-2x text-primary"></i>
-            <p class="mt-2">CSS</p>
-        </div>
-        <div class="col-6 col-md-3 mb-4">
-            <i class="fab fa-js fa-2x text-warning"></i>
-            <p class="mt-2">JavaScript</p>
-        </div>
-        <div class="col-6 col-md-3 mb-4">
-            <i class="fas fa-code fa-2x text-info"></i>
-            <p class="mt-2">TypeScript</p>
-        </div>
-        <div class="col-6 col-md-3 mb-4">
-            <i class="fab fa-bootstrap fa-2x text-purple"></i>
-            <p class="mt-2">Bootstrap</p>
-        </div>
-        <div class="col-6 col-md-3 mb-4">
-            <i class="fab fa-angular fa-2x text-danger"></i>
-            <p class="mt-2">AngularJS</p>
+
+        <div class="tab-pane fade" id="soft" role="tabpanel" aria-labelledby="soft-tab">
+            <div class="row text-center">
+                <div class="col-6 col-md-3 mb-4">
+                    <i class="fas fa-comments fa-2x text-success"></i>
+                    <p class="mt-2">Communication</p>
+                </div>
+
+                <div class="col-6 col-md-3 mb-4">
+                    <i class="fas fa-users fa-2x text-primary"></i>
+                    <p class="mt-2">Teamwork</p>
+                </div>
+
+                <div class="col-6 col-md-3 mb-4">
+                    <i class="fas fa-lightbulb fa-2x text-warning"></i>
+                    <p class="mt-2">Problem-Solving</p>
+                </div>
+
+                <div class="col-6 col-md-3 mb-4">
+                    <i class="fas fa-tasks fa-2x text-info"></i>
+                    <p class="mt-2">Time Management</p>
+                </div>
+
+                <div class="col-6 col-md-3 mb-4">
+                    <i class="fas fa-brain fa-2x text-danger"></i>
+                    <p class="mt-2">Critical Thinking</p>
+                </div>
+
+                <div class="col-6 col-md-3 mb-4">
+                    <i class="fas fa-handshake fa-2x text-secondary"></i>
+                    <p class="mt-2">Leadership</p>
+                </div>
+            </div>
         </div>
     </div>
 </div>
-
