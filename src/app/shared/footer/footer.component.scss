@@ -1,9 +1,13 @@
+/* Light Mode (default) */
 footer {
   font-size: 0.9rem;
+  background-color: #e9ecef;
+  color: #030303;
+  padding: 1rem 0;
 }
 
 .footer-icons a {
-  color: #ffffff;
+  color: #030303;
   font-size: 1.4rem;
   margin: 0.5rem;
   transition: color 0.3s ease;
@@ -14,9 +18,31 @@ footer {
 }
 
 .footer-icons a.github:hover {
-  color: #6e5494;
+  color: #3c0a83;
 }
 
 .footer-icons a.email:hover {
   color: #ff4d4d;
+}
+
+/* Dark Mode Overrides */
+body.dark-mode footer {
+  background-color: #212529;
+  color: #f8f9fa;
+}
+
+body.dark-mode .footer-icons a {
+  color: #f8f9fa;
+}
+
+body.dark-mode .footer-icons a.linkedin:hover {
+  color: #0A66C2; /* keep same or tweak if needed */
+}
+
+body.dark-mode .footer-icons a.github:hover {
+  color: #c0a0ff; /* lighter shade for dark background */
+}
+
+body.dark-mode .footer-icons a.email:hover {
+  color: #ff6b6b; /* brighter red for visibility */
 }
